@@ -2,7 +2,7 @@
 /* global createTag */
 
 const getProject = () => {
-  const project = $('.board-header-btn-text');
+  const project = $('.card-label-black');
   return project ? project.textContent.trim() : '';
 };
 
